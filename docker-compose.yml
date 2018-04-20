@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  as0:
+    image: as0
+    build: .
+    ports:
+      - 3000:3000
